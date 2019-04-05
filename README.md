@@ -10,4 +10,4 @@ Kanishka Roy(Club Director)
 Email: kanishkaroy0710@gmail.com
 
 # Powered By:
-This club would not be as great as it is, if it wasn't for hack club.  We are proud to be an offical hack club, and to be part of the hack club community.  
+This club would not be as great as it is if it wasn't for hack club.  We are proud to be an offical hack club, and to be part of the hack club community.  
