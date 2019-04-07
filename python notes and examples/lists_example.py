@@ -1,4 +1,9 @@
+'''
+Author: Evan Nishi
+Do whatever you want with this, took me like 5 min :)
+'''
 #quick example on how to use lists and 'in' keyword
+#also so logic and loops in there!
 def has99(nums):
   list_num = 0
   for num in nums:
