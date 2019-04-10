@@ -1,12 +1,12 @@
 # Useful Python Resources
-https://realpython.com/
-https://pythonprogramming.net/
-https://www.tutorialspoint.com/python/index.htm
-https://docs.python.org/3/
+https://realpython.com/ <br/>
+https://pythonprogramming.net/ <br/>
+https://www.tutorialspoint.com/python/index.htm <br/>
+https://docs.python.org/3/ <br/>
 
 # Useful Javascript Resources
-http://javascript.info/
-https://www.w3schools.com/js/
-https://www.geeksforgeeks.org/javascript-tutorial/
-https://www.tutorialspoint.com/javascript/
+http://javascript.info/ <br/>
+https://www.w3schools.com/js/ <br/>
+https://www.geeksforgeeks.org/javascript-tutorial/ <br/>
+https://www.tutorialspoint.com/javascript/ <br/>
 
