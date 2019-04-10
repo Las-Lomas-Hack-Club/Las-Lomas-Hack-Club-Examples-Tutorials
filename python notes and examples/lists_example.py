@@ -15,3 +15,4 @@ def has99(nums):
       print('false')
       return False
 has99([1,2,3,3,6,7,8,9,9])
+#will return True because there are two values of 9 in the list back to back
