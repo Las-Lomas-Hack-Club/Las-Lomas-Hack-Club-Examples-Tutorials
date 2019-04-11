@@ -23,8 +23,5 @@ try:
             #names
             print(name_with_email[1])
     email_bot_server.quit()
-except:
-    print("wrong pass")
-    time.sleep(30)
 finally:
     print("process finished")
