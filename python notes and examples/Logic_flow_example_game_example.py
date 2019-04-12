@@ -6,6 +6,7 @@ Liscense: Do whatever you want with this, it took me like 20 min for this demo.
 '''
 #quick example of control flow and program logic, may be a bit sloppy, also example for txt file saving
 import random
+import fileinput
 lives = 5
 gold = 0
 tunnel_events = {1:"You get hit by a dart trap! Oh no! \n you lose 1 life",2:"You find 3 gold!",3: "You find a skeleton!",4:"You find a huge pot of gold!"}
@@ -16,6 +17,13 @@ def lose():
         start_game()
     else:
         quit()
+def save_game():
+    #will need to create a file named game_save.txt on you pc
+    with open ("game_save.txt",'w'):
+        for line in fileinput.input("game_save.txt", inplant = True):
+            high_score = line.split()
+            if (gold > int(high_score[0]))
+                #I'll finish this later, got to eat some noodles
 def start_game():
     print("Welcome to temple explorer")
 while lives > 0:
@@ -53,4 +61,4 @@ while lives > 0:
     else:
         continue
 start_game()
-#ha, only 56 lines, child's play
+#ha, only 64 lines, child's play
