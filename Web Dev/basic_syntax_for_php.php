@@ -18,7 +18,7 @@ echo "hello world";
 //in php, no keywords are case sensitive.  The following statements all do the same thing.
 ECHO "hello world";
 echo "hello world";
-eChO "hello world"; //This is clearly not good programming practice, but it still works
+EcHO "hello world"; //This is clearly not good programming practice, but it still works
 
 //to declare a variable in php it uses odd syntax.  You must pu a $ before any variable.
 $x = 10; //declares a variable named x with value of 10
