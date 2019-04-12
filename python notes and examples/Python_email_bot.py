@@ -1,5 +1,5 @@
 #sorry, was too lazy to make a gui with tkinter or wx python :(
-
+#prolly should have also had a function to add new addresses in JSON form, but I am very very lazy rn.
 import smtplib
 
 import time
@@ -34,12 +34,13 @@ email_bot_server.login('YOUR EMAIL HERE',enter_pass)
 
 try:
 #note this only takes txt files in the form of EMAIL NAME \n
+#I reccomend you adapt this for JSON or  csv files if you use this on a large scale
     with open ('YOUR TEXT FILE HERE') as file:
 
         for line in file: 
 
             name_with_email = line.split()
-
+            #this is kinda crude, but it works :)
             final_body = ("Subject:{}\n\n{}{}{}".format(subject,greeting,name_with_email[1],body))
 
             email_bot_server.sendmail('llhackclub@gmail.com',name_with_email[0],final_body)
