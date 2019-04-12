@@ -1,3 +1,5 @@
+//Remember, if you set up an SQL server with php, pleas SANITIZE YOUR INPUTS, I don't want any passwords getting exposed.
+//Also, please hash your passwords, and don't expose your private key.
 //php is a scripting language similiar to js but not as popular.  Before learning php I would reccommend some HTML/CSS experience
 //This is a review sheet, this is not to learn php right out of the gate.
 //First we need to setup php.  Go to https://www.jetbrains.com/phpstorm/ and download/setup phpstorm.  This will be your IDE.
@@ -26,3 +28,5 @@ $x = 10; //declares a variable named x with value of 10
 $a = 5;
 $b = 10;
 echo $a + $b; //prints out 15
+
+//I'll continue this later, I'm at a presentation rn
