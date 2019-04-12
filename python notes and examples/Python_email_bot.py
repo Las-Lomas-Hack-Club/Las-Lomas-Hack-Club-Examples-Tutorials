@@ -44,7 +44,7 @@ try:
 
             email_bot_server.sendmail('llhackclub@gmail.com',name_with_email[0],final_body)
 
-            print("Done emailing ",name_with_email[1]," "name_with_email[0])
+            print("Done emailing ",name_with_email[1]," at" ,name_with_email[0])
 
 
     email_bot_server.quit()
