@@ -8,7 +8,7 @@ Evan Nishi(Club Director)<br/>
 Email: evankn.13@gmail.com<br/>
 <br/>
 Kanishka Roy(Club Director)<br/>
-Email: kanishkaroy0710@gmail.com<br/>s
+Email: kanishkaroy0710@gmail.com<br/>
 
 # Powered By:
 This club would not exist without [hack club](https://hackclub.com/).  We are proud to be an offical hack club, and to be part of the hack club community.  
