@@ -1,8 +1,10 @@
-//Remember, if you set up an SQL server with php, pleas SANITIZE YOUR INPUTS, I don't want any passwords getting exposed.
+//Remember, if you set up an SQL server with php, please SANITIZE YOUR INPUTS, I don't want any passwords getting exposed.
 //Also, please hash your passwords, and don't expose your private key.
 //php is a scripting language similiar to js but not as popular.  Before learning php I would reccommend some HTML/CSS experience
 //This is a review sheet, this is not to learn php right out of the gate.
 //First we need to setup php.  Go to https://www.jetbrains.com/phpstorm/ and download/setup phpstorm.  This will be your IDE.
+
+//warning, php is not a good first langauage, it is so different in syntax to other languages it can make learning new languages after php harder than if you just chose js or python as your first language
 
 //php works well with HTML, here is how to easily insert php code into an HTML file
 <?php
