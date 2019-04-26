@@ -13,9 +13,15 @@ Email: kanishkaroy0710@gmail.com<br/>
 # Powered By:
 This club would not exist without [hack club](https://hackclub.com/).  We are proud to be an offical hack club, and to be part of the hack club community.  
 
-# If you would like to sponsor us here are some methods of contact:
+# For Sponsors:
 Email: llhackclub@gmail.com
 Phone 925-542-4419
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 Have fun, and happy hacking!
