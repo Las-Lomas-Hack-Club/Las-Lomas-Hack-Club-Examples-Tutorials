@@ -44,3 +44,26 @@ if(age > 14){  //this is a basic if statement, if the condition is true, which i
 }else{ //the code within this statement will only execute if age>14 is false, it will not execute in this case
   console.log("wow, your as old as me!"); 
 }
+
+//teneary operators or question mark operators are represented by ?
+
+//this code is too long and can be shortened by "?" operators
+var isFriend;
+var vitalQues = prompt('coffee or tea??', '');
+
+if (vitalQues == "tea") {
+  isFriend = true;
+} else {
+  isFriend = false;
+}
+
+console.log("Friend Status: "+isFriend);
+
+//shortened code with tenerary op
+
+var isFriend;
+var vitalQues = prompt('coffee or tea??', '');
+
+var isFriend = (vitalQues = "tea") ? true : false;
+
+console.log("Friend Status: "+isFriend);
