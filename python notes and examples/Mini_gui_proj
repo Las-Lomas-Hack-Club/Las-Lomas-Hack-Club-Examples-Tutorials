@@ -1,0 +1,29 @@
+from tkinter import Tk, simpledialog, messagebox
+def read_from_file():
+    with open('elements.txt')as file:
+        for line in file:
+            line = line.rstrip('\n')
+            atomic,number = line.split('/')
+            elements[atomic] = number
+def write_to_file(new_element,new_atomic_number):
+    with open('elements.txt','a')as file:
+     file.write('\n' + new_element + '/' + new_atomic_number)
+    
+root = Tk()
+root.withdraw()
+
+elements = {}
+
+read_from_file()
+while True:
+    ask_e = simpledialog.askstring('element','Name an element: (Enter stop to break program)')
+    ask_e = ask_e.capitalize()
+    if ask_e in elements:
+        result = elements[ask_e]
+        messagebox.showinfo('Answer','The atomic number of ' + ask_e + ' is ' + result)
+    elif (ask_e == 'Stop'):
+        break
+    else:
+        new_element = simpledialog.askstring('What?','Please tell me the atomic number of ' + ask_e)
+        elements[ask_e] = new_element
+        write_to_file(ask_e,new_element)
