@@ -1,5 +1,5 @@
 '''
-Visualizing data can be very useful when working with large amounts.  Matplotlib is an easy efficient way of doing this.
+Visualizing data can be very useful.  Matplotlib is an easy efficient way of doing this.
 '''
 #importing modules needed
 #note, you may need to pip install this.  Come ask for help if you can't figure it out! :)
@@ -34,3 +34,5 @@ plt.legend()
 #shows plot
 plt.show()
 #programming on a chromebook is a nightmare :(
+
+
