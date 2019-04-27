@@ -1,3 +1,6 @@
+'''
+One of my first python projects, I'm not gonna change it beyond here.  Too much nostalgia from like Nov of 2018
+'''
 from tkinter import Tk, simpledialog, messagebox
 def read_from_file():
     with open('elements.txt')as file:
