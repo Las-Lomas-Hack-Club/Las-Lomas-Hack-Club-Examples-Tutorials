@@ -1,0 +1,16 @@
+#creating food class, must have init as first method in class for python.
+class food:
+    def __init__(self, ie, c, n):
+        self.name = n
+        self.calories = c
+        self.is_edible = ie
+    def calorie_num(self):
+        if (self.calories > 800 and self.is_edible == True):
+            print(self.name, " is pretty fattening")
+        else:
+            print(self.name," is ok")
+
+#creating bread instance of class named food
+bread = food(True,900,"Bread")
+#calling calorie_num method from class of food
+bread.calorie_num()
