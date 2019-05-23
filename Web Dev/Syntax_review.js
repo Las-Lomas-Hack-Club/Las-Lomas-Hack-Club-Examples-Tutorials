@@ -33,7 +33,18 @@ console.log(typeof variable_name); //returns type of obj
 //If you are on an html website, you can ask the user to input things with
 var myvar = prompt("my prompt");//will give you error if on console, must be inside an html page
 //User input will be stored in a variable named myvar
+
+//some other math functions
 alert(myvar); // will print out on HTML page what the user input
+//exponentiation 
+console.log(a**b**c); // 1125899906842624 because it does 4 to the power of 5 to the power of 2
+
+//incrementation/decrementation
+console.log(a++); //can only do with vars
+console.log(b--);
+
+console.log(++a);//if you want to see result of ++, put it before var.  If you want to see original val, put it behind
+console.log(--b);
 
 //2. Logic and control flow
 var age = 55; 
